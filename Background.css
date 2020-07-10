@@ -348,7 +348,7 @@ body:before {
 }
 
 .item-2hkk8m {											/* unread/selectedpill										*/
-	background-color: rgba(var(--serverlistpillcolor), var(--serverlistpilltransparency)); /* Default: 255, 255, 255, 1 */
+	background-color: rgba(var(--vserverlistpillcolor), var(--vserverlistpilltransparency)); /* Default: 255, 255, 255, 1 */
 }
 
 .wrapper-21YSNc {											/* folder				outerwrap							*/
