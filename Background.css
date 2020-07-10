@@ -6,6 +6,7 @@
 	--dtransparencyalpha:			0,0,0;
 	--dgeneraltransparency:			0.15;
 	--dmessagetransparency:			0.5;
+	--dmessageinputboxtransparency:		0.3;
 	--dguildchanneltransparency:	0.15;
 	--dmemberlisttransparency:		0.0;
 	--daccentcolor:					190,78,180;
@@ -21,6 +22,7 @@
 	--vtransparencycolor:			var(--transparencycolor,			var(--dtransparencycolor));
 	--vtransparencyalpha:			var(--transparencyalpha,			var(--dtransparencyalpha));
 	--vmessagetransparency:			var(--messagetransparency,			var(--dmessagetransparency));
+	--vmessageinputboxtransparency:		var(--messageinputboxtransparency, var(--dmessageinputboxtransparency));
 	--vusechatbubbles: 				calc(var(--vmessagetransparency) / (var(--vmessagetransparency) + 0.00000000000000000000001));
 	--vguildchanneltransparency:	var(--guildchanneltransparency,		var(--dguildchanneltransparency));
 	--vmemberlisttransparency:		var(--memberlisttransparency,		var(--dmemberlisttransparency));
@@ -1219,7 +1221,7 @@ body:before {
 }
 
 .scrollableContainer-2NUZem {								/* textarea				container							*/
-	background-color: rgba(var(--vtransparencycolor), 0.3);
+	background-color: rgba(var(--vtransparencycolor), var(--vmessageinputboxtransparency));
 }
 
 .attachButtonPlus-jWVFah {									/* textarea				attachbuttoninner					*/
