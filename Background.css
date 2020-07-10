@@ -11,8 +11,8 @@
 	--dmemberlisttransparency:		0.0;
 	--daccentcolor:				190,78,180;
 	
-	--dserverunreaddotcolor:		255,255,255;
-	--dserverunreaddottransparency:		1;
+	--dserverlistpillcolor:		255,255,255;
+	--dserverlistpilltransparency:		1;
 	
 	--dfont:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	--dtextshadow:					transparent;
@@ -32,8 +32,8 @@
 	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
 	--vlinkcolor:				var(--vaccentcolor);
 	
-	--vserverunreaddotcolor:		var(--serverunreaddotcolor,	var(--dserverunreaddotcolor));
-	--vserverunreaddottransparency:		var(--serverunreaddottransparency,	var(--dserverunreaddottransparency));
+	--vserverlistpillcolor:		var(--serverlistpillcolor,	var(--dserverlistpillcolor));
+	--vserverlistpilltransparency:		var(--serverlistpilltransparency,	var(--dserverlistpilltransparency));
 	
 	--vfont:				var(--font,			var(--dfont));
 	--vtextshadow:				var(--textshadow,		var(--dtextshadow));
@@ -348,7 +348,7 @@ body:before {
 }
 
 .item-2hkk8m {											/* unread/selectedpill										*/
-	background-color: rgba(var(--serverunreaddotcolor), var(--serverunreaddottransparency)); /* Default: 255, 255, 255, 1 */
+	background-color: rgba(var(--serverlistpillcolor), var(--serverlistpilltransparency)); /* Default: 255, 255, 255, 1 */
 }
 
 .wrapper-21YSNc {											/* folder				outerwrap							*/
