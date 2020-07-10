@@ -7,9 +7,12 @@
 	--dgeneraltransparency:			0.15;
 	--dmessagetransparency:			0.5;
 	--dmessageinputboxtransparency:		0.3;
-	--dguildchanneltransparency:	0.15;
+	--dguildchanneltransparency:		0.15;
 	--dmemberlisttransparency:		0.0;
-	--daccentcolor:					190,78,180;
+	--daccentcolor:				190,78,180;
+	
+	--dserverunreaddotcolor:		255,255,255;
+	--dserverunreaddottransparency:		1;
 	
 	--dfont:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	--dtextshadow:					transparent;
@@ -23,31 +26,34 @@
 	--vtransparencyalpha:			var(--transparencyalpha,			var(--dtransparencyalpha));
 	--vmessagetransparency:			var(--messagetransparency,			var(--dmessagetransparency));
 	--vmessageinputboxtransparency:		var(--messageinputboxtransparency, var(--dmessageinputboxtransparency));
-	--vusechatbubbles: 				calc(var(--vmessagetransparency) / (var(--vmessagetransparency) + 0.00000000000000000000001));
-	--vguildchanneltransparency:	var(--guildchanneltransparency,		var(--dguildchanneltransparency));
+	--vusechatbubbles: 			calc(var(--vmessagetransparency) / (var(--vmessagetransparency) + 0.00000000000000000000001));
+	--vguildchanneltransparency:		var(--guildchanneltransparency,		var(--dguildchanneltransparency));
 	--vmemberlisttransparency:		var(--memberlisttransparency,		var(--dmemberlisttransparency));
-	--vaccentcolor:					var(--accentcolor,					var(--daccentcolor));
-	--vlinkcolor:					var(--vaccentcolor);
+	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
+	--vlinkcolor:				var(--vaccentcolor);
 	
-	--vfont:						var(--font,							var(--dfont));
-	--vtextshadow:					var(--textshadow,					var(--dtextshadow));
+	--vserverunreaddotcolor:		var(--serverunreaddotcolor,	var(--dserverunreaddotcolor));
+	--vserverunreaddottransparency:		var(--serverunreaddottransparency,	var(--dserverunreaddottransparency));
 	
-	--vbackground:					var(--background,					var(--dbackground));
-	--vbackgroundsize:				var(--backgroundsize,				var(--dbackgroundsize));
-	--vbackgroundblur:				var(--backgroundblur,				var(--dblur));
+	--vfont:				var(--font,			var(--dfont));
+	--vtextshadow:				var(--textshadow,		var(--dtextshadow));
 	
-	--vpopout:						var(--popout,						var(--vbackground));
-	--vpopoutsize:					var(--popoutsize,					var(--vbackgroundsize));
-	--vpopoutblur:					var(--popoutblur,					var(--vbackgroundblur));
+	--vbackground:				var(--background,		var(--dbackground));
+	--vbackgroundsize:			var(--backgroundsize,		var(--dbackgroundsize));
+	--vbackgroundblur:			var(--backgroundblur,		var(--dblur));
 	
-	--vbackdrop:					var(--backdrop,						var(--dbackdrop));
-	--vbackdropsize:				var(--backdropsize,					var(--vbackgroundsize));
-	--vbackdropblur:				var(--backdropblur,					var(--vbackgroundblur));
+	--vpopout:				var(--popout,			var(--vbackground));
+	--vpopoutsize:				var(--popoutsize,		var(--vbackgroundsize));
+	--vpopoutblur:				var(--popoutblur,		var(--vbackgroundblur));
+	
+	--vbackdrop:				var(--backdrop,			var(--dbackdrop));
+	--vbackdropsize:			var(--backdropsize,		var(--vbackgroundsize));
+	--vbackdropblur:			var(--backdropblur,		var(--vbackgroundblur));
 
-	--fontwhite1: 					255,255,255;
-	--fontwhite2: 					210,210,210;
-	--fontwhite3: 					170,170,170;
-	--fontwhite4: 					120,120,120;
+	--fontwhite1: 				255,255,255;
+	--fontwhite2: 				210,210,210;
+	--fontwhite3: 				170,170,170;
+	--fontwhite4: 				120,120,120;
 }
 
 .theme-light, .theme-dark {
@@ -341,8 +347,8 @@ body:before {
 	background-color: rgba(var(--fontwhite1), 0.2);
 }
 
-.item-2hkk8m {												/* unread/selectedpill										*/
-	background-color: rgb(var(--fontwhite1));
+.item-2hkk8m {											/* unread/selectedpill										*/
+	background-color: rgba(var(--serverunreaddotcolor), var(--serverunreaddottransparency)); /* Default: 255, 255, 255, 1 */
 }
 
 .wrapper-21YSNc {											/* folder				outerwrap							*/
