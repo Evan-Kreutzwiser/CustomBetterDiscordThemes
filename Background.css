@@ -9,6 +9,7 @@
 	--dmessageinputboxtransparency:		0.3;
 	--dguildchanneltransparency:		0.15;
 	--dmemberlisttransparency:		0.0;
+	--dmembertransparency:			0.0;
 	--daccentcolor:				190,78,180;
 	
 	--dwindowbuttoncolor:			170, 170, 170;
@@ -33,6 +34,7 @@
 	--vusechatbubbles: 			calc(var(--vmessagetransparency) / (var(--vmessagetransparency) + 0.00000000000000000000001));
 	--vguildchanneltransparency:		var(--guildchanneltransparency,		var(--dguildchanneltransparency));
 	--vmemberlisttransparency:		var(--memberlisttransparency,		var(--dmemberlisttransparency));
+	--vmembertransparency:			var(--membertransparency,		var(--dmembertransparency));
 	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
 	--vlinkcolor:				var(--linkcolor, var(--vaccentcolor));
 	
@@ -1442,8 +1444,9 @@ body:before {
 /* ----		6.5.	MEMBERLIST						---- */
 
 .member-3-YXUe {											/* member				container							*/
-	color: rgb(var(--fontwhite3));
+	bacground-color: rgba(var(--vtransparencycolor), var(--vmembertransparency));
 }
+
 .clickable-1JJAn8.member-3-YXUe:hover {
 	color: rgb(var(--fontwhite2));
 }
