@@ -1301,13 +1301,13 @@ body:before {
 }
 
 .attachButtonPlus-jWVFah {									/* textarea				attachbuttoninner					*/
-	fill: rgb(var(--fontwhite3));
+	fill: rgb(var(--vmessagebariconcolor));
 }
 .attachButton-2WznTc:hover .attachButtonPlus-jWVFah {
-	fill: rgb(var(--fontwhite2));
+	fill: rgb(var(--vmessagebariconhovercolor));
 }
 .attachButton-2WznTc:active .attachButtonPlus-jWVFah {
-	fill: rgb(var(--fontwhite1));
+	fill: rgb(var(--vmessagebariconhovercolor));
 }
 .attachWrapper-2TRKBi {										/* textarea				attachdivider						*/
 	border-color: rgb(var(--fontwhite3));
@@ -1326,15 +1326,15 @@ body:before {
 }
 
 .button-3AYNKb {											/* textarea				buttons								*/
-	color: rgb(var(--fontwhite3));
+	color: rgb(var(--vmessagebariconcolor));
 }
 .button-3AYNKb:hover,
 .buttonWrapper-1ZmCpA:hover .icon-3D60ES {
-	color: rgb(var(--fontwhite2));
+	color: rgb(var(--vmessagebariconhovercolor));
 }
 .active-23Nm0T .icon-3D60ES,
 .active-23Nm0T:hover .icon-3D60ES {
-	color: rgb(var(--fontwhite1));
+	color: rgb(var(--vmessagebariconhovercolor));
 }
 .sprite-2iCowe {											/* textarea				emojibutton							*/
 	transform: none !important;
