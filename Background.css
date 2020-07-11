@@ -11,20 +11,21 @@
 	--dmemberlisttransparency:		0.0;
 	--daccentcolor:				190,78,180;
 	
-	--dserverlistpillcolor:		255,255,255;
+	--dserverlistpillcolor:			255,255,255;
 	--dserverlistpilltransparency:		1;
 	
-	--dserverlisticoncolor:		67, 181, 129;
-	--dserverlisticonhovercolor:	255, 255, 255;
+	--dserverlisticoncolor:			67, 181, 129;
+	--dserverlisticonhovercolor:		255, 255, 255;
 	
+	--dserverlisticonbuttonhovercolor:	67, 181, 129;
 	
-	--dfont:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-	--dtextshadow:					transparent;
+	--dfont:				Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+	--dtextshadow:				transparent;
 	
-	--dbackground:					url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/background.jpg);
-	--dbackgroundsize:				cover;
-	--dblur:						0px;
-	--dbackdrop:					rgba(0,0,0,0.85);
+	--dbackground:				url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/background.jpg);
+	--dbackgroundsize:			cover;
+	--dblur:				0px;
+	--dbackdrop:				rgba(0,0,0,0.85);
 
 	--vtransparencycolor:			var(--transparencycolor,			var(--dtransparencycolor));
 	--vtransparencyalpha:			var(--transparencyalpha,			var(--dtransparencyalpha));
@@ -41,6 +42,8 @@
 	
 	--vserverlisticoncolor:			var(--serverlisticoncolor,	var(--dserverlisticoncolor));
 	--vserverlisticonhovercolor:		var(--serverlisticonhovercolor,	var(--dserverlisticonhovercolor));
+
+	--vserverlisticonbuttonhovercolor:	var(--serverlisticonbuttunhovercolor,	var(--dserverlisticonbuttonhovercolor));
 
 	
 	--vfont:				var(--font,			var(--dfont));
@@ -5591,15 +5594,30 @@ body:before {
 	color: rgb(var(--fontwhite2));
 }
 
-.da-circleIcons {
-
+.da-circleIconButton > svg {
 	color: rgb(var(--vserverlisticoncolor));
 }
 
-.da-circleIcons:hover {
-
+.da-circleIcon:hover > svg {
 	color: rgb(var(--vserverlisticonhovercolor));
 }
+
+.da-circleIconButton:hover {
+	background-color: rgb(var(--vtransparencycolor));
+}
+
+.da-circleIconButton {
+	color: rgb(var(--vserverlisticonhovercolor));
+}
+
+.da-circleIcon {
+	color: rgb(var(--vserverlisticoncolor));
+}
+
+.da-circleIcon:hover {
+	color: rgb(var(--vserverlisticonhovercolor));
+}
+
 
 /* ----		15.3.	INPUTS							---- */
 
