@@ -14,6 +14,10 @@
 	--dserverlistpillcolor:		255,255,255;
 	--dserverlistpilltransparency:		1;
 	
+	--dserverlisticoncolor:		67, 181, 129;
+	--dserverlisticonhovercolor:	255, 255, 255;
+	
+	
 	--dfont:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	--dtextshadow:					transparent;
 	
@@ -30,10 +34,14 @@
 	--vguildchanneltransparency:		var(--guildchanneltransparency,		var(--dguildchanneltransparency));
 	--vmemberlisttransparency:		var(--memberlisttransparency,		var(--dmemberlisttransparency));
 	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
-	--vlinkcolor:				var(--vaccentcolor);
+	--vlinkcolor:				var(--linkcolor, var(--vaccentcolor));
 	
-	--vserverlistpillcolor:		var(--serverlistpillcolor,	var(--dserverlistpillcolor));
+	--vserverlistpillcolor:			var(--serverlistpillcolor,	var(--dserverlistpillcolor));
 	--vserverlistpilltransparency:		var(--serverlistpilltransparency,	var(--dserverlistpilltransparency));
+	
+	--vserverlisticoncolor:			var(--serverlisticoncolor,	var(--dserverlisticoncolor));
+	--vserverlisticonhovercolor:		var(--serverlisticonhovercolor,	var(--dserverlisticonhovercolor));
+
 	
 	--vfont:				var(--font,			var(--dfont));
 	--vtextshadow:				var(--textshadow,		var(--dtextshadow));
@@ -5581,6 +5589,16 @@ body:before {
 .theme-dark .lookLink-9FtZy-.hoverTransparent-2Lz5CN.hasHover-3X1-zV:hover .contents-18-Yxp {
 	background-image: linear-gradient(0deg, transparent, transparent 1px, rgb(var(--fontwhite2)) 0, rgb(var(--fontwhite2)) 2px, transparent 0);
 	color: rgb(var(--fontwhite2));
+}
+
+.da-circleIcons {
+
+	color: rgb(var(--vserverlisticoncolor));
+}
+
+.da-circleIcons:hover {
+
+	color: rgb(var(--vserverlisticonhovercolor));
 }
 
 /* ----		15.3.	INPUTS							---- */
