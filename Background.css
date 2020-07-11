@@ -5603,19 +5603,19 @@ body:before {
 }
 
 .da-circleIconButton:hover {
-	background-color: rgb(var(--vtransparencycolor));
+	background-color: rgb(var(--vtransparencycolor)) !important;
 }
 
 .da-circleIconButton {
-	background-color: rgb(var(--vserverlisticonhovercolor));
+	background-color: rgb(var(--vserverlisticonhovercolor)) !important;
 }
 
 .da-circleIcon {
-	color: rgb(var(--vserverlisticoncolor));
+	color: rgb(var(--vserverlisticoncolor)) !important;
 }
 
 .da-circleIcon:hover {
-	color: rgb(var(--vserverlisticonhovercolor));
+	color: rgb(var(--vserverlisticonhovercolor)) !important;
 }
 
 
