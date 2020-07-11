@@ -203,11 +203,11 @@
 }
 
 .da-winButton > svg {
-	color: var(--vwindowbuttoncolor);
+	color: var(--vwindowbuttoncolor) !important;
 }
 
 .da-winButton:hover {
-	background-color: var(--vwindowbuttoncolor);
+	background-color: var(--vwindowbuttoncolor) !important;
 }
 
 .da-winButton:hover > svg {
