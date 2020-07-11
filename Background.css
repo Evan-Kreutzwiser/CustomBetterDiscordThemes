@@ -291,7 +291,7 @@ body,														/* body														*/
 }
 
 .layer-3QrUeG {
-	background-color: rgba(var(--vtransparencycolor), var(--vsettingstransparency));
+	background-color: rgba(var(--vtransparencycolor), var(--vsettingstransparency)) !important;
 }
 
 .themeDark-3Ap_7i, .themeLight-2aS1dz {						/* errorscreen												*/
