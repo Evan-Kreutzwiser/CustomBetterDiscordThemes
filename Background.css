@@ -15,9 +15,6 @@
 	--dserverlistpilltransparency:		1;
 	
 	--dserverlisticoncolor:			67, 181, 129;
-	--dserverlisticonhovercolor:		255, 255, 255;
-	
-	--dserverlisticonbuttonhovercolor:	67, 181, 129;
 	
 	--dfont:				Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	--dtextshadow:				transparent;
@@ -41,10 +38,6 @@
 	--vserverlistpilltransparency:		var(--serverlistpilltransparency,	var(--dserverlistpilltransparency));
 	
 	--vserverlisticoncolor:			var(--serverlisticoncolor,	var(--dserverlisticoncolor));
-	--vserverlisticonhovercolor:		var(--serverlisticonhovercolor,	var(--dserverlisticonhovercolor));
-
-	--vserverlisticonbuttonhovercolor:	var(--serverlisticonbuttunhovercolor,	var(--dserverlisticonbuttonhovercolor));
-
 	
 	--vfont:				var(--font,			var(--dfont));
 	--vtextshadow:				var(--textshadow,		var(--dtextshadow));
@@ -339,10 +332,17 @@ body:before {
 }
 
 .circleIconButton-jET_ig {									/* guildadd/discovery	innerwrap							*/
-	background-color: rgba(var(--vservericonbuttoncolor), 0.3);
+	background-color: rgba(var(--vtransparencycolor ), var(--vguildchanneltransparency ));
 }
 .circleIconButton-jET_ig.selected-ugP_am {
-	color: rgb(var(--fontwhite1));
+	color: rgb(var(--vserverlisticoncolor));
+}
+
+.circleIconButton-jET_ig > svg {									/* guildadd/discovery	innerwrap							*/
+	color: rgb(255, 255, 255);
+}
+.circleIconButton-jET_ig.selected-ugP_am {
+	color: rgb(var(--vservericonbuttonhovercolor));
 }
 
 .guildIconUnavailable-5PMHDN,								/* guilderror			miniicon							*/
