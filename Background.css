@@ -185,7 +185,7 @@
 }
 
 .da-winButton:hover > svg {
-	color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255) !important;
 }
 
 /* ~~~~		1.		TRANSPARENCY					~~~~ */
