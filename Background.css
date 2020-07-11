@@ -353,7 +353,7 @@ body:before {
 	background-color: rgba(var(--vtransparencycolor ), var(--vguildchanneltransparency ));
 }
 .selected-ugP_am {
-	background-color: rgb(var(--vserverlisticoncolor));
+	background-color: rgb(var(--vserverlisticoncolor)) !important;
 }
 
 .circleIconButton-jET_ig > svg {									/* guildadd/discovery	innerwrap							*/
