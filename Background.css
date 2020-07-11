@@ -315,16 +315,19 @@ body:before {
 	margin-right: 0;
 }
 .winButton-iRh8-Z {
-	color: rgb(var(--fontwhite3));
+	color: rgb(var(--vwindowbuttoncolor));
 }
 .winButtonMinMax-PBQ2gm:hover {
-	background-color: rgba(var(--vtransparencycolor), 0.2);
+	background-color: rgba(var(--vwindowbuttoncolor), 0.2);
 }
 .winButtonClose-1HsbF-:hover,
 .winButtonMinMax-PBQ2gm:hover {
 	color: rgb(var(--fontwhite1));
 }
 
+.winButtonClose-1HsbF-:hover {
+	background-color rgb(255,0,0);
+}
 
 /* ~~~~		4.		GUILDLIST						~~~~ */
 
