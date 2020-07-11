@@ -290,7 +290,7 @@ body,														/* body														*/
 	background-color: rgba(var(--vtransparencycolor), var(--vmemberlisttransparency));
 }
 
-.layer-3QrUeG {
+.layer-3QrUeG[layer-id="user-settings"] {
 	background-color: rgba(var(--vtransparencycolor), var(--vsettingstransparency)) !important;
 }
 
