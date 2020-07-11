@@ -11,6 +11,7 @@
 	--dmemberlisttransparency:		0.0;
 	--dmembertransparency:			0.0;
 	--dmemberhovertransparency:		0.3;
+	--dsettingstranparency:			0.0;
 	
 	--daccentcolor:				190,78,180;
 	
@@ -47,10 +48,11 @@
 	--vguildchanneltransparency:		var(--guildchanneltransparency,		var(--dguildchanneltransparency));
 	--vmemberlisttransparency:		var(--memberlisttransparency,		var(--dmemberlisttransparency));
 	--vmembertransparency:			var(--membertransparency,		var(--dmembertransparency));
-	--vmemberhovertransparency:			var(--memberhovertransparency,		var(--dmemberhovertransparency));
+	--vmemberhovertransparency:		var(--memberhovertransparency,		var(--dmemberhovertransparency));
+	--vsettingstransparency:		var(--settingstransparency, 		var(--dsettingstransparency));
 	
 	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
-	--vlinkcolor:				var(--linkcolor, var(--vaccentcolor));
+	--vlinkcolor:				var(--linkcolor, 			var(--vaccentcolor));
 	
 	--vtopbariconcolor:			var(--topbariconcolor, 			var(--dtopbariconcolor));
 	--vtopbariconhovercolor:		var(--topbariconhovercolor, 		var(--dtopbariconhovercolor));
@@ -286,6 +288,10 @@ body,														/* body														*/
 }
 #app-mount .nowPlayingColumn-2sl4cE {						/* peoples				now playing							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vmemberlisttransparency));
+}
+
+.standardSidebarView-3F1I7i {
+	background-color: rgba(var(--vtransparencycolor), var(--vsettingstransparency));
 }
 
 .themeDark-3Ap_7i, .themeLight-2aS1dz {						/* errorscreen												*/
