@@ -1344,7 +1344,7 @@ body:before {
 }
 .sprite-2iCowe {											/* textarea				emojibutton							*/
 	transform: none !important;
-	filter: grayscale(100%) sepia(var(--vemojiiconsepia)) hue-rotate(var(--vemojiiconhuerotate));
+	filter: grayscale(100%) sepia(var(--vemojiiconsepia)) hue-rotate(var(--vemojiiconhuerotate)) !important;
 }
 
 .base-gE7OpD {												/* textarea				typingusers							*/
