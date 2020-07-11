@@ -176,15 +176,15 @@
 */
 
 
-.da-winbutton > svg {
+.da-winButton > svg {
 	color: var(--vwindowbuttoncolor);
 }
 
-.da-winbutton:hover {
+.da-winButton:hover {
 	background-color: var(--vwindowbuttoncolor);
 }
 
-.da-winbutton:hover > svg {
+.da-winButton:hover > svg {
 	color: rgb(255, 255, 255);
 }
 
