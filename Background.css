@@ -184,11 +184,11 @@
 */
 
 
-.da-toolbar > div > svg {
+.da-toolbar > div > svg, .da-toolbar > div > svg > foreignObject > svg {
 	color: rgb(var(--vtopbariconcolor)) !important;
 }
 
-.da-toolbar > div:hover > svg {	
+.da-toolbar > div:hover > svg, .da-toolbar > div > svg > foreignObject > svg {	
 	color: rgb(var(--vtopbariconhovercolor)) !important;
 }
 
