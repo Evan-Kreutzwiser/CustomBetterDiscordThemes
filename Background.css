@@ -10,10 +10,15 @@
 	--dguildchanneltransparency:		0.15;
 	--dmemberlisttransparency:		0.0;
 	--dmembertransparency:			0.0;
+	--dmemberhovertransparency:		0.3;
+	
 	--daccentcolor:				190,78,180;
 	
 	--dtopbariconcolor:			200, 200, 200;
 	--dtopbariconhovercolor:		255, 255, 255;
+	
+	--dmessagebariconcolor:			170, 170, 170;
+	--dmessagebariconhovercolor:		255, 255, 255;
 	
 	--dwindowbuttoncolor:			170, 170, 170;
 
@@ -38,11 +43,16 @@
 	--vguildchanneltransparency:		var(--guildchanneltransparency,		var(--dguildchanneltransparency));
 	--vmemberlisttransparency:		var(--memberlisttransparency,		var(--dmemberlisttransparency));
 	--vmembertransparency:			var(--membertransparency,		var(--dmembertransparency));
+	--vmemberhovertransparency:			var(--memberhovertransparency,		var(--dmemberhovertransparency));
+	
 	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
 	--vlinkcolor:				var(--linkcolor, var(--vaccentcolor));
 	
 	--vtopbariconcolor:			var(--topbariconcolor, 			var(--dtopbariconcolor));
 	--vtopbariconhovercolor:		var(--topbariconhovercolor, 		var(--dtopbariconhovercolor));
+	
+	--vmessagebariconcolor:			var(--messagebariconcolor,		var(--vmessagebariconcolor));
+	--vmessagebariconhovercolor:		var(--messagebariconhovercolor,		var(--vmessagebariconhovercolor));
 	
 	--vwindowbuttoncolor:			var(--windowsbuttoncolor, 		var(--dwindowsbuttoncolor));
 
@@ -1474,7 +1484,7 @@ body:before {
 /* ----		6.5.	MEMBERLIST						---- */
 
 .member-3-YXUe {											/* member				container							*/
-	bacground-color: rgba(var(--vtransparencycolor), var(--vmembertransparency));
+	background-color: rgba(var(--vtransparencycolor), var(--vmembertransparency));
 }
 
 .clickable-1JJAn8.member-3-YXUe:hover {
