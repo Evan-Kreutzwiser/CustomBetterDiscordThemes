@@ -12,6 +12,9 @@
 	--dmembertransparency:			0.0;
 	--daccentcolor:				190,78,180;
 	
+	--dtopbariconcolor:			200, 200, 200;
+	--dtopbariconhovercolor:		255, 255, 255;
+	
 	--dwindowbuttoncolor:			170, 170, 170;
 
 	--dserverlistpillcolor:			255,255,255;
@@ -27,16 +30,19 @@
 	--dblur:				0px;
 	--dbackdrop:				rgba(0,0,0,0.85);
 
-	--vtransparencycolor:			var(--transparencycolor,			var(--dtransparencycolor));
-	--vtransparencyalpha:			var(--transparencyalpha,			var(--dtransparencyalpha));
-	--vmessagetransparency:			var(--messagetransparency,			var(--dmessagetransparency));
-	--vmessageinputboxtransparency:		var(--messageinputboxtransparency, var(--dmessageinputboxtransparency));
+	--vtransparencycolor:			var(--transparencycolor,		var(--dtransparencycolor));
+	--vtransparencyalpha:			var(--transparencyalpha,		var(--dtransparencyalpha));
+	--vmessagetransparency:			var(--messagetransparency,		var(--dmessagetransparency));
+	--vmessageinputboxtransparency:		var(--messageinputboxtransparency, 	var(--dmessageinputboxtransparency));
 	--vusechatbubbles: 			calc(var(--vmessagetransparency) / (var(--vmessagetransparency) + 0.00000000000000000000001));
 	--vguildchanneltransparency:		var(--guildchanneltransparency,		var(--dguildchanneltransparency));
 	--vmemberlisttransparency:		var(--memberlisttransparency,		var(--dmemberlisttransparency));
 	--vmembertransparency:			var(--membertransparency,		var(--dmembertransparency));
 	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
 	--vlinkcolor:				var(--linkcolor, var(--vaccentcolor));
+	
+	--vtopbariconcolor:			var(--topbariconcolor, 			var(--dtopbariconcolor));
+	--vtopbariconhovercolor:		var(--topbariconhovercolor, 		var(--dtopbariconhovercolor));
 	
 	--vwindowbuttoncolor:			var(--windowsbuttoncolor, 		var(--dwindowsbuttoncolor));
 
@@ -177,6 +183,24 @@
 	20.	WATERMARK
 */
 
+
+.da-toolbar > div > svg {
+	color: rgb(var(--vtopbariconcolor));
+}
+
+.da-toolbar > div:hover > svg {	
+	color: rgb(var(--vtopbariconhovercolor));
+}
+
+/* Help Icon */
+
+.iconWrapper-2OrFZ1 > svg {
+	color: rgb(var(--vtopbariconcolor));
+}
+
+.iconWrapper-2OrFZ1 > div:hover > svg {	
+	color: rgb(var(--vtopbariconhovercolor));
+}
 
 .da-winButton > svg {
 	color: var(--vwindowbuttoncolor);
