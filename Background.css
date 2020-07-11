@@ -339,10 +339,10 @@ body:before {
 }
 
 .circleIconButton-jET_ig > svg {									/* guildadd/discovery	innerwrap							*/
-	color: rgb(255, 255, 255);
+	color: rgb(var(--vserverlisticoncolor));
 }
-.circleIconButton-jET_ig.selected-ugP_am {
-	color: rgb(var(--vservericonbuttonhovercolor));
+.circleIconButton-jET_ig.selected-ugP_am > svg {
+	color: rgb(255, 255, 255);
 }
 
 .guildIconUnavailable-5PMHDN,								/* guilderror			miniicon							*/
