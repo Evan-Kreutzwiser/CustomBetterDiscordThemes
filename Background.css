@@ -339,7 +339,7 @@ body:before {
 }
 
 .circleIconButton-jET_ig > svg {									/* guildadd/discovery	innerwrap							*/
-	color: rgb(var(--vserverlisticoncolor));
+	color: rgb(var(--vserverlisticoncolor)) !important;
 }
 .circleIconButton-jET_ig.selected-ugP_am > svg {
 	color: rgb(255, 255, 255);
