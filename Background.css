@@ -11,6 +11,8 @@
 	--dmemberlisttransparency:		0.0;
 	--daccentcolor:				190,78,180;
 	
+	--dwindowbuttoncolor:			170, 170, 170;
+
 	--dserverlistpillcolor:			255,255,255;
 	--dserverlistpilltransparency:		1;
 	
@@ -34,7 +36,9 @@
 	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
 	--vlinkcolor:				var(--linkcolor, var(--vaccentcolor));
 	
-	--vserverlistpillcolor:			var(--serverlistpillcolor,	var(--dserverlistpillcolor));
+	--vwindowbuttoncolor:			var(--windowsbuttoncolor, 		var(--dwindowsbuttoncolor));
+
+	--vserverlistpillcolor:			var(--serverlistpillcolor,		var(--dserverlistpillcolor));
 	--vserverlistpilltransparency:		var(--serverlistpilltransparency,	var(--dserverlistpilltransparency));
 	
 	--vserverlisticoncolor:			var(--serverlisticoncolor,	var(--dserverlisticoncolor));
@@ -171,6 +175,18 @@
 	20.	WATERMARK
 */
 
+
+.da-winbutton > svg {
+	color: var(--vwindowbuttoncolor);
+}
+
+.da-winbutton:hover {
+	background-color: var(--vwindowbuttoncolor);
+}
+
+.da-winbutton:hover > svg {
+	color: rgb(255, 255, 255);
+}
 
 /* ~~~~		1.		TRANSPARENCY					~~~~ */
 
