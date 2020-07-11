@@ -51,8 +51,8 @@
 	--vtopbariconcolor:			var(--topbariconcolor, 			var(--dtopbariconcolor));
 	--vtopbariconhovercolor:		var(--topbariconhovercolor, 		var(--dtopbariconhovercolor));
 	
-	--vmessagebariconcolor:			var(--messagebariconcolor,		var(--vmessagebariconcolor));
-	--vmessagebariconhovercolor:		var(--messagebariconhovercolor,		var(--vmessagebariconhovercolor));
+	--vmessagebariconcolor:			var(--messagebariconcolor,		var(--dmessagebariconcolor));
+	--vmessagebariconhovercolor:		var(--messagebariconhovercolor,		var(--dmessagebariconhovercolor));
 	
 	--vwindowbuttoncolor:			var(--windowsbuttoncolor, 		var(--dwindowsbuttoncolor));
 
