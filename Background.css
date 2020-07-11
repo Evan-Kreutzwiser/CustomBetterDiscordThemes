@@ -314,19 +314,22 @@ body:before {
 	margin-top: 0;
 	margin-right: 0;
 }
-.winButton-iRh8-Z {
+.winButton-iRh8-Z > svg {
 	color: rgb(var(--vwindowbuttoncolor));
 }
 .winButtonMinMax-PBQ2gm:hover {
-	background-color: rgba(var(--vwindowbuttoncolor), 0.2);
+	background-color: rgb(var(--vwindowbuttoncolor)) !important;
 }
-.winButtonClose-1HsbF-:hover,
-.winButtonMinMax-PBQ2gm:hover {
+.winButtonClose-1HsbF-:hover > svg,
+.winButtonMinMax-PBQ2gm:hover > svg {
 	color: rgb(var(--fontwhite1));
 }
 
+.winButtonClose-1HsbF > svg {
+	color rgb(255,0,0) !important;
+}
 .winButtonClose-1HsbF-:hover {
-	background-color rgb(255,0,0);
+	background-color rgb(255,0,0) !important;
 }
 
 /* ~~~~		4.		GUILDLIST						~~~~ */
