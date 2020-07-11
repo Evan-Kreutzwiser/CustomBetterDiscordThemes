@@ -185,21 +185,21 @@
 
 
 .da-toolbar > div > svg {
-	color: rgb(var(--vtopbariconcolor));
+	color: rgb(var(--vtopbariconcolor)) !important;
 }
 
 .da-toolbar > div:hover > svg {	
-	color: rgb(var(--vtopbariconhovercolor));
+	color: rgb(var(--vtopbariconhovercolor)) !important;
 }
 
 /* Help Icon */
 
 .iconWrapper-2OrFZ1 > svg {
-	color: rgb(var(--vtopbariconcolor));
+	color: rgb(var(--vtopbariconcolor)) !important;
 }
 
 .iconWrapper-2OrFZ1 > div:hover > svg {	
-	color: rgb(var(--vtopbariconhovercolor));
+	color: rgb(var(--vtopbariconhovercolor)) !important;
 }
 
 .da-winButton > svg {
