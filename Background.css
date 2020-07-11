@@ -5607,7 +5607,7 @@ body:before {
 }
 
 .da-circleIconButton {
-	color: rgb(var(--vserverlisticonhovercolor));
+	background-color: rgb(var(--vserverlisticonhovercolor));
 }
 
 .da-circleIcon {
