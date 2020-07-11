@@ -21,6 +21,7 @@
 	--dmessagebariconhovercolor:		255, 255, 255;
 	
 	--demojiiconsepia:			0%;
+	--demojiiconsaturate:			0%;
 	--demojiiconhuerotate:			0deg;
 	
 	--dwindowbuttoncolor:			170, 170, 170;
@@ -58,6 +59,7 @@
 	--vmessagebariconhovercolor:		var(--messagebariconhovercolor,		var(--dmessagebariconhovercolor));
 	
 	--vemojiiconsepia:			var(--emojiiconsepia, 			var(--demojiiconsepia));
+	--vemojiiconsaturate:			var(--emojiiconsaturate,		var(--demojiiconsaturate));
 	--vemojiiconhuerotate:			var(--emojiiconhuerotate, 		var(--demojiiconhuerotate));
 	
 	--vwindowbuttoncolor:			var(--windowsbuttoncolor, 		var(--dwindowsbuttoncolor));
@@ -1344,7 +1346,7 @@ body:before {
 }
 .buttonContainer-28fw2U > button > div > div {	/* textarea	.sprite-2iCowe			emojibutton							*/
 	transform: none !important;
-	filter: grayscale(100%) sepia(var(--vemojiiconsepia)) hue-rotate(var(--vemojiiconhuerotate)) !important;
+	filter: grayscale(100%) sepia(var(--vemojiiconsepia)) saturate(var(--vemojiiconsaturate)) hue-rotate(var(--vemojiiconhuerotate)) !important;
 }
 .buttonContainer-28fw2U:hover > button > div > div, .buttonContainer-28fw2U:active > button > div > div {	/* textarea	.sprite-2iCowe			emojibutton							*/
 	transform: none !important;
