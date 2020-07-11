@@ -20,6 +20,9 @@
 	--dmessagebariconcolor:			170, 170, 170;
 	--dmessagebariconhovercolor:		255, 255, 255;
 	
+	--demojiiconsepia:			0%;
+	--demojiiconhuerotate:			0deg;
+	
 	--dwindowbuttoncolor:			170, 170, 170;
 
 	--dserverlistpillcolor:			255,255,255;
@@ -53,6 +56,9 @@
 	
 	--vmessagebariconcolor:			var(--messagebariconcolor,		var(--dmessagebariconcolor));
 	--vmessagebariconhovercolor:		var(--messagebariconhovercolor,		var(--dmessagebariconhovercolor));
+	
+	--vemojiiconsepia:			var(--emojiiconsepia, 			var(--demojiiconsepia));
+	--vemojiiconhuerotate:			var(--emojiiconhuerotate, 		var(--demojiiconhuerotate));
 	
 	--vwindowbuttoncolor:			var(--windowsbuttoncolor, 		var(--dwindowsbuttoncolor));
 
@@ -1338,6 +1344,7 @@ body:before {
 }
 .sprite-2iCowe {											/* textarea				emojibutton							*/
 	transform: none !important;
+	filter: grayscale(100%) sepia(var(--vemojiiconsepia)) hue-rotate(var(--vemojiiconhuerotate));
 }
 
 .base-gE7OpD {												/* textarea				typingusers							*/
