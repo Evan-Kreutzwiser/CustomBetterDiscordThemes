@@ -335,7 +335,7 @@ body:before {
 	background-color: rgba(var(--vtransparencycolor ), var(--vguildchanneltransparency ));
 }
 .circleIconButton-jET_ig.selected-ugP_am {
-	color: rgb(var(--vserverlisticoncolor));
+	background-color: rgb(var(--vserverlisticoncolor));
 }
 
 .circleIconButton-jET_ig > svg {									/* guildadd/discovery	innerwrap							*/
