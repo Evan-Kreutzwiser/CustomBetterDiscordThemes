@@ -339,7 +339,7 @@ body:before {
 }
 
 .circleIconButton-jET_ig {									/* guildadd/discovery	innerwrap							*/
-	background-color: rgba(var(--vtransparencycolor), 0.3);
+	background-color: rgba(var(--vservericonbuttoncolor), 0.3);
 }
 .circleIconButton-jET_ig.selected-ugP_am {
 	color: rgb(var(--fontwhite1));
@@ -5593,31 +5593,6 @@ body:before {
 	background-image: linear-gradient(0deg, transparent, transparent 1px, rgb(var(--fontwhite2)) 0, rgb(var(--fontwhite2)) 2px, transparent 0);
 	color: rgb(var(--fontwhite2));
 }
-
-.da-circleIconButton > svg {
-	color: rgb(var(--vserverlisticoncolor));
-}
-
-.da-circleIcon:hover > svg {
-	color: rgb(var(--vserverlisticonhovercolor));
-}
-
-.da-circleIconButton:hover {
-	background-color: rgb(var(--vtransparencycolor)) !important;
-}
-
-.da-circleIconButton {
-	background-color: rgb(var(--vserverlisticonhovercolor)) !important;
-}
-
-.da-circleIcon {
-	color: rgb(var(--vserverlisticoncolor)) !important;
-}
-
-.da-circleIcon:hover {
-	color: rgb(var(--vserverlisticonhovercolor)) !important;
-}
-
 
 /* ----		15.3.	INPUTS							---- */
 
