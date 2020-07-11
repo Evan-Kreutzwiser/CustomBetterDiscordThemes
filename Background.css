@@ -1342,9 +1342,13 @@ body:before {
 .active-23Nm0T:hover .icon-3D60ES {
 	color: rgb(var(--vmessagebariconhovercolor));
 }
-.sprite-2iCowe {											/* textarea				emojibutton							*/
+.buttonContainer-28fw2U > button > div > div {	/* textarea	.sprite-2iCowe			emojibutton							*/
 	transform: none !important;
 	filter: grayscale(100%) sepia(var(--vemojiiconsepia)) hue-rotate(var(--vemojiiconhuerotate)) !important;
+}
+.buttonContainer-28fw2U:hover > button > div > div, .buttonContainer-28fw2U:active > button > div > div {	/* textarea	.sprite-2iCowe			emojibutton							*/
+	transform: none !important;
+	filter: grayscale(0%) !important;
 }
 
 .base-gE7OpD {												/* textarea				typingusers							*/
