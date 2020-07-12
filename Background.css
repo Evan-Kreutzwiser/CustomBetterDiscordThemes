@@ -25,6 +25,7 @@
 	--demojiiconsaturate:			0%;
 	--demojiiconhuerotate:			0deg;
 	
+	--dtextlogocolor:			170, 170, 170;
 	--dwindowbuttoncolor:			170, 170, 170;
 
 	--dserverlistpillcolor:			255,255,255;
@@ -64,6 +65,7 @@
 	--vemojiiconsaturate:			var(--emojiiconsaturate,		var(--demojiiconsaturate));
 	--vemojiiconhuerotate:			var(--emojiiconhuerotate, 		var(--demojiiconhuerotate));
 	
+	--vtextlogocolor:			var(--textlogocolor, 		var(--dtextlogocolor));
 	--vwindowbuttoncolor:			var(--windowsbuttoncolor, 		var(--dwindowsbuttoncolor));
 
 	--vserverlistpillcolor:			var(--serverlistpillcolor,		var(--dserverlistpillcolor));
@@ -370,7 +372,7 @@ body:before {
 }
 .winButtonClose-1HsbF-:hover > svg,
 .winButtonMinMax-PBQ2gm:hover > svg {
-	color: rgb(var(--fontwhite1));
+	color: rgb(20,20,255);
 }
 
 .winButtonClose-1HsbF > svg {
@@ -378,6 +380,9 @@ body:before {
 }
 .winButtonClose-1HsbF-:hover {
 	background-color rgb(255,0,0) !important;
+}
+.wordmark-2iDDfm > svg {
+	color: rgb(var(--vtextlogocolor));
 }
 
 /* ~~~~		4.		GUILDLIST						~~~~ */
