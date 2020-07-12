@@ -502,7 +502,12 @@ body:before {
 	filter: blur(var(--vbackgroundblur));
 	background-attachment: fixed;
 }
-
+.childWrapper-anI2G9 > svg {
+	color: rgb(var(--serverlisticoncolor));
+}
+.childWrapper-anI2G9:hover > svg {
+	color: rgb(255,255,255) !important;
+}
 
 /* ~~~~		5.		CHANNELLIST						~~~~ */
 
