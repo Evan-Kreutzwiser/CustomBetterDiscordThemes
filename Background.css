@@ -503,7 +503,7 @@ body:before {
 	background-attachment: fixed;
 }
 .childWrapper-anI2G9 > svg {
-	color: rgb(var(--serverlisticoncolor));
+	/*color: rgb(var(--serverlisticoncolor));*/
 }
 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
