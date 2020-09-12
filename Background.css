@@ -223,7 +223,7 @@ h3.title-29uC1r.da-title.base-1x0h_U.da-base {
 }
 
 .peopleColumn-29fq28 {
-	color: rgba(var(--vtransparencycolor), var(--vfriendsmenutransparency));
+	color: rgba(var(--vtransparencycolor), var(--vfriendsmenutransparency)) !important;
 }
 
 .da-toolbar > div > svg, .da-toolbar > div > svg > foreignObject > svg {
@@ -1535,7 +1535,7 @@ body:before {
 /* ----		6.5.	MEMBERLIST						---- */
 
 .member-3-YXUe, {											/* member				container							*/
-	background-color: rgba(var(--vtransparencycolor), var(--vmembertransparency));
+	background-color: rgba(var(--vtransparencycolor), var(--vmembertransparency)) !important;
 }
 
 .da-offline {
