@@ -12,6 +12,7 @@
 	--dmembertransparency:			0.0;
 	--dmemberhovertransparency:		0.3;
 	--dsettingstranparency:			0.0;
+	--dfriendsmenutransparency:		0.0;
 	
 	--daccentcolor:				190,78,180;
 	
@@ -54,6 +55,8 @@
 	--vmembertransparency:			var(--membertransparency,		var(--dmembertransparency));
 	--vmemberhovertransparency:		var(--memberhovertransparency,		var(--dmemberhovertransparency));
 	--vsettingstransparency:		var(--settingstransparency, 		var(--dsettingstransparency));
+	
+	--vfriendsmenutransparency:		var(--friendsmenutransparency,		var(--dfriendsmenutransparency));
 	
 	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
 	--vlinkcolor:				var(--linkcolor, 			var(--vaccentcolor));
@@ -217,6 +220,10 @@ h3.title-29uC1r.da-title.base-1x0h_U.da-base {
 
 .topic-TCb_qw {
 	color:  rgb(var(--vchanneldesccolor)) !important;
+}
+
+.peopleColumn-29fq28 {
+	color: rgba(var(--vtransparencycolor), var(--vfriendsmenutransparency));
 }
 
 .da-toolbar > div > svg, .da-toolbar > div > svg > foreignObject > svg {
