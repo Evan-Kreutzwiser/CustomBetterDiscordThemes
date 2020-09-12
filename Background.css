@@ -15,6 +15,9 @@
 	
 	--daccentcolor:				190,78,180;
 	
+	--dchanneltitlecolor:			255, 255, 255;
+	--dchanneldesccolor:			210, 210, 210;
+	
 	--dtopbariconcolor:			200, 200, 200;
 	--dtopbariconhovercolor:		255, 255, 255;
 	
@@ -54,6 +57,9 @@
 	
 	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
 	--vlinkcolor:				var(--linkcolor, 			var(--vaccentcolor));
+	
+	--vchanneltitlecolor:			var(--channeltitlecolor,		var(--dchanneltitlecolor));
+	--vchanneldesccolor:			var(--channeldesccolor,			var(--dchanneldesccolor));
 	
 	--vtopbariconcolor:			var(--topbariconcolor, 			var(--dtopbariconcolor));
 	--vtopbariconhovercolor:		var(--topbariconhovercolor, 		var(--dtopbariconhovercolor));
@@ -205,6 +211,13 @@
 	20.	WATERMARK
 */
 
+h3.title-29uC1r.da-title.base-1x0h_U.da-base {
+	color: var(--vchanneltitlecolor);
+}
+
+.topic-TCb_qw {
+	color:  var(--vchanneldesccolor);
+}
 
 .da-toolbar > div > svg, .da-toolbar > div > svg > foreignObject > svg {
 	color: rgb(var(--vtopbariconcolor)) !important;
