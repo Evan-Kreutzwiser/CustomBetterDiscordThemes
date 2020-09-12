@@ -1534,12 +1534,17 @@ body:before {
 
 /* ----		6.5.	MEMBERLIST						---- */
 
-.member-3-YXUe, {											/* member				container							*/
+.member-3-YXUe > div {											/* member				container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vmembertransparency)) !important;
 }
 
 .da-offline {
 	opacity: 1;
+}
+
+
+.da-offline > div > .da-avatar {
+	opacity: 0.5;
 }
 
 .clickable-1JJAn8.member-3-YXUe:hover {
