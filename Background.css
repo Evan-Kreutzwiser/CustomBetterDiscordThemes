@@ -1514,8 +1514,12 @@ body:before {
 
 /* ----		6.5.	MEMBERLIST						---- */
 
-.member-3-YXUe, .da-offline {											/* member				container							*/
+.member-3-YXUe, {											/* member				container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vmembertransparency));
+}
+
+.da-offline {
+	opacity: 1;
 }
 
 .clickable-1JJAn8.member-3-YXUe:hover {
