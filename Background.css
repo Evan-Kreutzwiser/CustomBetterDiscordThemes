@@ -1386,7 +1386,7 @@ body:before {
 }
 .buttonContainer-28fw2U > button > div > div {	/* textarea	.sprite-2iCowe			emojibutton							*/
 	transform: none !important;
-	filter: grayscale(100%) brightness(--vemojiiconbrightness) sepia(var(--vemojiiconsepia)) saturate(var(--vemojiiconsaturate)) hue-rotate(var(--vemojiiconhuerotate)) !important;
+	filter: grayscale(100%) brightness(var(--vemojiiconbrightness)) sepia(var(--vemojiiconsepia)) saturate(var(--vemojiiconsaturate)) hue-rotate(var(--vemojiiconhuerotate)) !important;
 }
 .buttonContainer-28fw2U:hover > button > div > div, .buttonContainer-28fw2U:active > button > div > div {	/* textarea	.sprite-2iCowe			emojibutton							*/
 	transform: none !important;
