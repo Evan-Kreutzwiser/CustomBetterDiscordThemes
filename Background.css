@@ -212,11 +212,11 @@
 */
 
 h3.title-29uC1r.da-title.base-1x0h_U.da-base {
-	color: rgb(var(--vchanneltitlecolor));
+	color: rgb(var(--vchanneltitlecolor)) !important;
 }
 
 .topic-TCb_qw {
-	color:  rgb(var(--vchanneldesccolor));
+	color:  rgb(var(--vchanneldesccolor)) !important;
 }
 
 .da-toolbar > div > svg, .da-toolbar > div > svg > foreignObject > svg {
