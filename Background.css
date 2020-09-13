@@ -13,6 +13,7 @@
 	--dmemberhovertransparency:		0.3;
 	--dsettingstranparency:			0.0;
 	--dfriendsmenutransparency:		0.0;
+	--dsearchtransparency:			0.0;
 	
 	--daccentcolor:				190,78,180;
 	
@@ -58,6 +59,7 @@
 	--vsettingstransparency:		var(--settingstransparency, 		var(--dsettingstransparency));
 	
 	--vfriendsmenutransparency:		var(--friendsmenutransparency,		var(--dfriendsmenutransparency));
+	--vsearchtransparency:			var(--searchtransparency, 		var(--dsearchtransparency));
 	
 	--vaccentcolor:				var(--accentcolor,			var(--daccentcolor));
 	--vlinkcolor:				var(--linkcolor, 			var(--vaccentcolor));
@@ -215,6 +217,25 @@
 	19.	UPDATENOTICE
 	20.	WATERMARK
 */
+
+.messageGroupCozy-2-Q370 > div > .header-23xsNx:after {
+	display: none;
+}
+
+.da-searchResultsWrap > div {
+	background-color: rgba(var(--vtransparencycolor), var(--vsearchtransparency));
+}
+
+.da-channelSeparator > span {
+	background-color: transparent
+}
+
+.searchResult-9tQ1uo:before, .searchResult-9tQ1uo:after {
+	background-color: transparent;
+	background-image: none;
+}
+
+
 
 .da-winButton > svg {
 	color: rgb(var(--vwindowbuttoncolor));
