@@ -856,12 +856,12 @@ body:before {
 }
 .clickable-3rdHwn .icon-22AiRD,								/* header				actionicon							*/
 #app-mount .link-2T7oYD {									/* header				linkicon							*/
-	color: rgb(var(--fontwhite3));
+	/*color: rgb(var(--fontwhite3));*/
 	opacity: 1;
 }
 .clickable-3rdHwn:hover .icon-22AiRD,
 #app-mount .link-2T7oYD:hover {
-	color: rgb(var(--fontwhite2));
+	/*color: rgb(var(--fontwhite2));*/
 }
 .clickable-3rdHwn:active .icon-22AiRD,
 .clickable-3rdHwn.selected-1GqIat .icon-22AiRD,
