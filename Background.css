@@ -58,6 +58,8 @@
 	--vmemberhovertransparency:		var(--memberhovertransparency,		var(--dmemberhovertransparency));
 	--vsettingstransparency:		var(--settingstransparency, 		var(--dsettingstransparency));
 	
+	--vwindowbarcolor:			var(--windowbarcolor,			var(--vtransparencycolor));
+	
 	--vfriendsmenutransparency:		var(--friendsmenutransparency,		var(--dfriendsmenutransparency));
 	--vsearchtransparency:			var(--searchtransparency, 		var(--dsearchtransparency));
 	
@@ -387,7 +389,7 @@ body:before {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: rgba(var(--vtransparencycolor), calc(0.1 + var(--vguildchanneltransparency) * 2));
+	background-color: rgb(var(--vwindowbarcolor));
 }
 .titleBar-AC4pGV:not(.typeMacOS-3EmCyP):after {
 	height: 22px;
