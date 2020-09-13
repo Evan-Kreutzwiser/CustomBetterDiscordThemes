@@ -247,11 +247,11 @@ h3.title-29uC1r.da-title.base-1x0h_U.da-base {
 /* Help Icon */
 
 .iconWrapper-2OrFZ1 > svg {
-	color: rgb(var(--vtopbariconcolor)) !important;
+	color: rgb(var(--vtopbariconcolor));
 }
 
 .iconWrapper-2OrFZ1 > div:hover > svg {	
-	color: rgb(var(--vtopbariconhovercolor)) !important;
+	color: rgb(var(--vtopbariconhovercolor));
 }
 
 /* ~~~~		1.		TRANSPARENCY					~~~~ */
@@ -390,7 +390,7 @@ body:before {
 }
 .winButtonClose-1HsbF-:hover > svg,
 .winButtonMinMax-PBQ2gm:hover > svg {
-	color: rgb(20,20,255);
+	color: rgb(255,255,255);
 }
 
 .winButtonClose-1HsbF > svg {
