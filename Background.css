@@ -60,7 +60,7 @@
 	--vmemberhovertransparency:		var(--memberhovertransparency,		var(--dmemberhovertransparency));
 	--vsettingstransparency:		var(--settingstransparency, 		var(--dsettingstransparency));
 	
-	--vserverlisttransparency:		var(--serverlisttransparency, 		var(--vserverlisttransparency));
+	--vserverlisttransparency:		var(--serverlisttransparency, 		var(--dserverlisttransparency));
 	--vwindowbartransparency:		var(--windowbartransparency, 		var(--dwindowbartransparency));
 	
 	--vwindowbarcolor:			var(--windowbarcolor,			var(--vtransparencycolor));
