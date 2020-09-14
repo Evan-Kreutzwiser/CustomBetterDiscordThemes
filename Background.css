@@ -52,6 +52,8 @@
 	--dmemberlistfrost:			0px;
 	--dserverlistfrost:			0px;
 	--dchannellistfrost:			0px;
+	--dwindowbarfrost:			0px;
+	--dtopbarfrost:				0px;
 	
 	--vtransparencycolor:			var(--transparencycolor,		var(--dtransparencycolor));
 	--vtransparencyalpha:			var(--transparencyalpha,		var(--dtransparencyalpha));
@@ -115,6 +117,8 @@
 	--vmemberlistfrost:			var(--memberlistfrost,		var(--dmemberlistfrost));
 	--vserverlistfrost:			var(--serverlistfrost,		var(--dserverlistfrost));
 	--vchannellistfrost:			var(--channellistfrost,		var(--dchannellistfrost));
+	--vwindowbarfrost:			var(--windowbarfrost,		var(--dwindowbarfrost));
+	--vtopbarfrost:				var(--topbarfrost,		var(--dtopbarfrost));
 	
 	--fontwhite1: 				255,255,255;
 	--fontwhite2: 				210,210,210;
@@ -340,7 +344,7 @@ body,														/* body														*/
 }
 #app-mount .container-1r6BKw.themed-ANHk51 {				/* channelheader		container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vguildchanneltransparency));
-
+	backdrop-filter: blur(var(--vtopbarfrost));
 }
 #app-mount .membersWrap-2h-GB4 {							/* members				container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vmemberlisttransparency));
@@ -407,6 +411,7 @@ body:before {
 	left: 0;
 	width: 100%;
 	background-color: rgba(var(--vwindowbarcolor), var(--vwindowbartransparency));
+	backdrop-filter: blur(var(--vwindowbarfrost));
 }
 .titleBar-AC4pGV:not(.typeMacOS-3EmCyP):after {
 	height: 22px;
