@@ -333,13 +333,14 @@ body,														/* body														*/
 }
 #app-mount .sidebar-2K8pFh {								/* channels				container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vguildchanneltransparency));
+	backdrop-filter: blur(var(--vchannellistfrost));
 }
 #app-mount .panels-j1Uci_ {									/* account/voice		container							*/
 	background-color: rgba(var(--vtransparencycolor), calc(var(--vguildchanneltransparency) / 1.5));
 }
 #app-mount .container-1r6BKw.themed-ANHk51 {				/* channelheader		container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vguildchanneltransparency));
-	backdrop-filter: blur(var(--vchannellistfrost));
+
 }
 #app-mount .membersWrap-2h-GB4 {							/* members				container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vmemberlisttransparency));
