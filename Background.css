@@ -50,6 +50,8 @@
 	--dbackdrop:				rgba(0,0,0,0.85);
 
 	--dmemberlistfrost:			0px;
+	--dserverlistfrost:			0px;
+	--dchannellistfrost:			0px;
 	
 	--vtransparencycolor:			var(--transparencycolor,		var(--dtransparencycolor));
 	--vtransparencyalpha:			var(--transparencyalpha,		var(--dtransparencyalpha));
@@ -111,6 +113,8 @@
 	--vbackdropblur:			var(--backdropblur,		var(--vbackgroundblur));
 
 	--vmemberlistfrost:			var(--memberlistfrost,		var(--dmemberlistfrost));
+	--vserverlistfrost:			var(--serverlistfrost,		var(--dserverlistfrost));
+	--vchannellistfrost:			var(--channellistfrost,		var(--dchannellistfrost));
 	
 	--fontwhite1: 				255,255,255;
 	--fontwhite2: 				210,210,210;
@@ -325,6 +329,7 @@ body,														/* body														*/
 }
 #app-mount .wrapper-1Rf91z {								/* guilds				container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vserverlisttransparency));
+	backdrop-filter: blur(var(--vserverlistfrost));
 }
 #app-mount .sidebar-2K8pFh {								/* channels				container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vguildchanneltransparency));
@@ -334,6 +339,7 @@ body,														/* body														*/
 }
 #app-mount .container-1r6BKw.themed-ANHk51 {				/* channelheader		container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vguildchanneltransparency));
+	backdrop-filter: blur(var(--vchannellistfrost));
 }
 #app-mount .membersWrap-2h-GB4 {							/* members				container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vmemberlisttransparency));
