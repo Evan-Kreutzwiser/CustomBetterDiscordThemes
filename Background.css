@@ -49,6 +49,8 @@
 	--dblur:				0px;
 	--dbackdrop:				rgba(0,0,0,0.85);
 
+	--dmemberlistfrost:			0px;
+	
 	--vtransparencycolor:			var(--transparencycolor,		var(--dtransparencycolor));
 	--vtransparencyalpha:			var(--transparencyalpha,		var(--dtransparencyalpha));
 	--vmessagetransparency:			var(--messagetransparency,		var(--dmessagetransparency));
@@ -108,6 +110,8 @@
 	--vbackdropsize:			var(--backdropsize,		var(--vbackgroundsize));
 	--vbackdropblur:			var(--backdropblur,		var(--vbackgroundblur));
 
+	--vmemberlistfrost:			var(--memberlistfrost,		var(--dmemberlistfrost));
+	
 	--fontwhite1: 				255,255,255;
 	--fontwhite2: 				210,210,210;
 	--fontwhite3: 				170,170,170;
@@ -333,6 +337,7 @@ body,														/* body														*/
 }
 #app-mount .membersWrap-2h-GB4 {							/* members				container							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vmemberlisttransparency));
+	backdrop-filter: blur(var(--vmemberlistfrost));
 }
 #app-mount .nowPlayingColumn-2sl4cE {						/* peoples				now playing							*/
 	background-color: rgba(var(--vtransparencycolor), var(--vmemberlisttransparency));
