@@ -59,6 +59,7 @@
 	--dchannellistfrost:			0px;
 	--dwindowbarfrost:			0px;
 	--dtopbarfrost:				0px;
+	--dsettingssidebarfrost:		0px;
 	
 	--dchannellisttextcolor:		170, 170, 170;
 	--dchannellistunreadtextcolor:		255, 255, 255;
@@ -129,7 +130,7 @@
 	--vchannellistfrost:			var(--channellistfrost,		var(--dchannellistfrost));
 	--vwindowbarfrost:			var(--windowbarfrost,		var(--dwindowbarfrost));
 	--vtopbarfrost:				var(--topbarfrost,		var(--dtopbarfrost));
-	
+	--vsettingssidebarfrost:		var(--settingssidebarfrost,	var(--dsettingssidebarfrost));
 	
 	--vchannellisttextcolor:		var(--channellisttextcolor,		var(--dchannellisttextcolor));
 	--vchannellistunreadtextcolor:		var(--channellistunreadtextcolor,	var(--dchannellistunreadtextcolor));
@@ -246,6 +247,10 @@
 	19.	UPDATENOTICE
 	20.	WATERMARK
 */
+
+.sidebarRegionScroller-3MXcoP {
+	backdrop-filter: blur(var(--vsettingssidebarfrost));
+}
 
 .messageGroupCozy-2-Q370 > div > .header-23xsNx:after {
 	display: none;
