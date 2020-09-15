@@ -60,6 +60,7 @@
 	--dwindowbarfrost:			0px;
 	--dtopbarfrost:				0px;
 	--dsettingssidebarfrost:		0px;
+	--dsettingsmainfrost:			0px;
 	
 	--dchannellisttextcolor:		170, 170, 170;
 	--dchannellistunreadtextcolor:		255, 255, 255;
@@ -131,6 +132,7 @@
 	--vwindowbarfrost:			var(--windowbarfrost,		var(--dwindowbarfrost));
 	--vtopbarfrost:				var(--topbarfrost,		var(--dtopbarfrost));
 	--vsettingssidebarfrost:		var(--settingssidebarfrost,	var(--dsettingssidebarfrost));
+	--vsettingsmainfrost:			var(--settingsmainfrost,	var(--dsettingsmainfrost));
 	
 	--vchannellisttextcolor:		var(--channellisttextcolor,		var(--dchannellisttextcolor));
 	--vchannellistunreadtextcolor:		var(--channellistunreadtextcolor,	var(--dchannellistunreadtextcolor));
@@ -297,6 +299,10 @@ h3.title-29uC1r.da-title.base-1x0h_U.da-base {
 
 .da-toolbar > div:hover > svg, .da-toolbar > div:hover > svg > foreignObject > svg {	
 	color: rgb(var(--vtopbariconhovercolor)) !important;
+}
+
+.contentRegion-3nDuYy {
+	backdrop-filter: blur(var(--vsettingsmainfrost));
 }
 
 /* Help Icon */
