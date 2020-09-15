@@ -62,7 +62,6 @@
 	
 	--dchannellisttextcolor:		170, 170, 170;
 	--dchannellistunreadtextcolor:		255, 255, 255;
-	--dchannellistmutedtextcolor:		120, 120, 120;
 	
 	--dmessagetextcolor:			210, 210, 210;
 	
@@ -134,8 +133,6 @@
 	
 	--vchannellisttextcolor:		var(--channellisttextcolor,		var(--dchannellisttextcolor));
 	--vchannellistunreadtextcolor:		var(--channellistunreadtextcolor,	var(--dchannellistunreadtextcolor));
-	--vchannellistmutedtextcolor:		var(--channellistmutedtextcolor,	var(--dchannellistmutedtextcolor));
-
 	--vmessagetextcolor:			var(--messagetextcolor,			var(--dmessagetextcolor));
 }
 
@@ -643,7 +640,7 @@ body:before {
 	color: rgb(var(--fontwhite3));
 }
 .wrapper-CU3qI5.muted-1NRuDm {
-	color: rgb(var(--vchannellistmutedtextcolor);
+	color: rgb(var(--fontwhite4));
 }
 .wrapper-CU3qI5.muted-1NRuDm:hover,
 .wrapper-CU3qI5:hover {
@@ -698,7 +695,7 @@ body:before {
 .notInteractive-YF5EXq.modeConnected-2IEL4z .icon-1_QxNX,
 .notInteractive-YF5EXq.modeSelected-1zApJ_ .icon-1_QxNX,
 .wrapper-1ucjTd:hover .icon-1_QxNX {
-	color: rgb(var(--vchannelunreadtextcolor));
+	color: rgb(var(--fontwhite1));
 }
 .name-3_Dsmg {												/* channel				name								*/
 	color: rgb(var(--fontwhite3));
