@@ -60,10 +60,10 @@
 	--dwindowbarfrost:			0px;
 	--dtopbarfrost:				0px;
 	
-	--dchannellisttextcolor:		var(--fontwhite3);
-	--dchannellistunreadtextcolor:		var(--fontwhite1);
+	--dchannellisttextcolor:		170, 170, 170;
+	--dchannellistunreadtextcolor:		255, 255, 255;
 	
-	--dmessagetextcolor:			var(--fontwhite2)
+	--dmessagetextcolor:			210, 210, 210;
 	
 	--vtransparencycolor:			var(--transparencycolor,		var(--dtransparencycolor));
 	--vtransparencyalpha:			var(--transparencyalpha,		var(--dtransparencyalpha));
