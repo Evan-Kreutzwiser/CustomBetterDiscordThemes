@@ -727,16 +727,16 @@ body:before {
 }
 
 .unread-3zKkbm {
-	background-color: rgb(var(--vchannellistunreadcolor)); 
+	background-color: rgb(var(--vchannellistunreadtextcolor)); 
 }
 
 /* Channel list normal color */
 :not(modeUnread-1zpFdA) > div > .mainContent-ENyL1r > svg, :not(modeUnread-1zpFdA) > div > .mainContent-ENyL1r > div  {
-	color: rgb(var(--vchannellistcolor));
+	color: rgb(var(--vchannellisttextcolor));
 }
 
 .mainContent-ENyL1r > div {
-	color: rgb(var(--vchannellistunreadcolor));
+	color: rgb(var(--vchannellistunreadtextcolor));
 }
 
 #app-mount .channelIcon-1JSaVj {							/* channelselect		icon								*/
