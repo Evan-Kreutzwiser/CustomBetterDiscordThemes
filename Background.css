@@ -55,6 +55,11 @@
 	--dwindowbarfrost:			0px;
 	--dtopbarfrost:				0px;
 	
+	--dchannellisttextcolor:		var(--fontwhite3);
+	--dchannellistunreadtextcolor:		var(--fontwhite1);
+	
+	--dmessagetextcolor:			var(--fontwhite2)
+	
 	--vtransparencycolor:			var(--transparencycolor,		var(--dtransparencycolor));
 	--vtransparencyalpha:			var(--transparencyalpha,		var(--dtransparencyalpha));
 	--vmessagetransparency:			var(--messagetransparency,		var(--dmessagetransparency));
@@ -119,6 +124,11 @@
 	--vchannellistfrost:			var(--channellistfrost,		var(--dchannellistfrost));
 	--vwindowbarfrost:			var(--windowbarfrost,		var(--dwindowbarfrost));
 	--vtopbarfrost:				var(--topbarfrost,		var(--dtopbarfrost));
+	
+	
+	--vchannellisttextcolor:		var(--channellisttextcolor,		var(--dchannellisttextcolor));
+	--vchannellistunreadtextcolor:		var(--channellistunreadtextcolor,	var(--dchannellistunreadtextcolor));
+	--vmessagetextcolor:			var(--messagetextcolor,			var(--dmessagetextcolor));
 	
 	--fontwhite1: 				255,255,255;
 	--fontwhite2: 				210,210,210;
@@ -715,8 +725,18 @@ body:before {
 .actionIcon-2Hi9ZG:hover {
 	opacity: 1.0;
 }
+
 .unread-3zKkbm {
-	background-color: rgb(var(--fontwhite1));
+	background-color: rgb(var(--vchannellistunreadcolor)); 
+}
+
+/* Channel list normal color */
+:not(modeUnread-1zpFdA) > div > .mainContent-ENyL1r > svg, :not(modeUnread-1zpFdA) > div > .mainContent-ENyL1r > div  {
+	color: rgb(var(--vchannellistcolor));
+}
+
+.mainContent-ENyL1r > div {
+	color: rgb(var(--vchannellistunreadcolor));
 }
 
 #app-mount .channelIcon-1JSaVj {							/* channelselect		icon								*/
@@ -1196,7 +1216,7 @@ body:before {
 }
 
 .markup-2BOw-j {											/* message				markup								*/
-	color: rgb(var(--fontwhite2));
+	color: rgb(var(--vmessagetextcolor));
 }
 .markup-2BOw-j code {										/* messageelement		code								*/
 	background-color: transparent;
