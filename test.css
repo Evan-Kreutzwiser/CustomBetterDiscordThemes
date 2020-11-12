@@ -252,7 +252,7 @@
 
 .sidebarRegionScroller-3MXcoP {
   
-	filter: blur(var(--vsettingssidebarfrost));
+  backdrop-filter: blur(var(--vsettingssidebarfrost));
   -webkit-user-select: none;
           user-select: none;
   z-index: -1;
